@@ -62,8 +62,8 @@ $sql2 = "CREATE TABLE beneficiary".$id."(
             PRIMARY KEY(benef_id)
         )";
 
-$sql3 = "INSERT INTO customer VALUES(
-            NULL,
+$sql3 = "INSERT INTO `customer`(`first_name`, `last_name`, `gender`, `dob`, `nid_no`, `email`, `phone_no`, `address`, `branch`, `nearby_branch`, `account_no`,  `pin`, `uname`, `pwd`) VALUES(
+ 
             '$fname',
             '$lname',
             '$gender',
@@ -99,27 +99,7 @@ $sql4 = "INSERT INTO passbook".$id." VALUES(
                 <p id="info"><?php echo "Customer created successfully !\n"; ?></p>
         </div>
 
-        <div class="flex-item">
-            <?php
-            if (($conn->query($sql1) === TRUE)) { ?>
-                <p id="info"><?php echo "Passbook created successfully !\n"; ?></p>
-            <?php
-            } else { ?>
-                <p id="info"><?php
-                echo "Error: " . $sql1 . "<br>" . $conn->error . "<br>"; ?></p>
-            <?php } ?>
-        </div>
-
-        <div class="flex-item">
-            <?php
-            if (($conn->query($sql4) === TRUE)) { ?>
-                <p id="info"><?php echo "Passbook updated successfully !\n"; ?></p>
-            <?php
-            } else { ?>
-                <p id="info"><?php
-                echo "Error: " . $sql4 . "<br>" . $conn->error . "<br>"; ?></p>
-            <?php } ?>
-        </div>
+        
 
         <div class="flex-item">
             <?php
@@ -143,7 +123,7 @@ $sql4 = "INSERT INTO passbook".$id." VALUES(
         <?php $conn->close(); ?>
 
         <div class="flex-item">
-            <a href="/customer_add.php" class="button">Add Again</a>
+            <a href="customer_add.php" class="button">Add Again</a>
         </div>
 
     </div>

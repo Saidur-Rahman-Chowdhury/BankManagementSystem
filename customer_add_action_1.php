@@ -59,7 +59,7 @@ $sql2 = "CREATE TABLE beneficiary".$id."(
             PRIMARY KEY(benef_id)
         )";
 
-$sql3 = "INSERT INTO customer( `first_name`, `last_name`, `gender`, `dob`, `nid_no`, `email`, `phone_no`, `address`, `branch`, `account_no`, `pin`, `uname`, `pwd`) VALUES(
+$sql3 = "INSERT INTO customer( `first_name`, `last_name`, `gender`, `dob`, `nid_no`, `email`, `phone_no`, `address`, `branch`, `nearby_branch`, `account_no`, `pin`, `uname`, `pwd`) VALUES(
             '$fname',
             '$lname',
             '$gender',

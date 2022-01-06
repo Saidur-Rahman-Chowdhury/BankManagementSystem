@@ -93,8 +93,8 @@
                 <label>Gender :
                     <label id="info_label">
                     <?php
-                        if ($gender == "male") {echo "Male";}
-                        elseif ($gender == "female") {echo "Female";}
+                        if ($gender == "Male") {echo "Male";}
+                        elseif ($gender == "Female") {echo "Female";}
                         else {echo "Others";}
                     ?>
                     <label>
