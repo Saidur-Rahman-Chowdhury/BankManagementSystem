@@ -1,10 +1,11 @@
+You've used 87% of your storage. … If you run out of storage, you won't be able to upload new files.Learn more
 <?php
 require __DIR__ . '\library\twilio-php\src\Twilio\autoload.php';
 use Twilio\Rest\Client;
 $servername = "localhost";
 // Enter your MySQL username below(default=root)
 $username = "root";
-// Press your MySQL password below
+// Enter your MySQL password below
 $password = "";
 $dbname = "net_banking";
 $account_sid = ''; #Paste Your SID Here
