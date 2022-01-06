@@ -4,7 +4,7 @@ use Twilio\Rest\Client;
 $servername = "localhost";
 // Enter your MySQL username below(default=root)
 $username = "root";
-// Enter your MySQL password below
+// Press your MySQL password below
 $password = "";
 $dbname = "net_banking";
 $account_sid = ''; #Paste Your SID Here
