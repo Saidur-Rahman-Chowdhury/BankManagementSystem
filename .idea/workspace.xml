@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="735b3873-5650-4727-a500-9a944def4139" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assigned_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/assigned_delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atm_simulator_out_action_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/atm_simulator_out_action_1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_delivery_create_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/cash_delivery_create_request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_delivery_debit.php" beforeDir="false" afterPath="$PROJECT_DIR$/cash_delivery_debit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_delivery_exit.php" beforeDir="false" afterPath="$PROJECT_DIR$/cash_delivery_exit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_delivery_home_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/cash_delivery_home_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complete_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/complete_delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirm_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirm_delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deliveryman_otp.php" beforeDir="false" afterPath="$PROJECT_DIR$/deliveryman_otp.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22n69jskHzKUmshJu8cDzEcFRqP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="735b3873-5650-4727-a500-9a944def4139" name="Default Changelist" comment="" />
+      <created>1640460879922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640460879922</updated>
+      <workItem from="1640460901816" duration="583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
