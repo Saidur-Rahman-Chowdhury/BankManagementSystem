@@ -7,9 +7,9 @@ $username = "root";
 // Enter your MySQL password below
 $password = "";
 $dbname = "net_banking";
-$account_sid = 'ACf365d18367e7db2daee18446714fc6e0';
-$auth_token = '108846b736fb95458c7766498b5ff168';
-$twilio_number = "+14156809126"; // Twilio number you own
+$account_sid = ''; #Paste Your SID Here
+$auth_token = ''; #Paste Your Auth Token
+$twilio_number = ""; // Twilio number you own
 $client = new Client($account_sid, $auth_token);
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
